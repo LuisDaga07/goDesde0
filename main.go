@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+
 	/*"runtime"*/
 
 	"github.com/LuisDaga07/goDesde0/ejercicios"
@@ -25,10 +25,15 @@ import (
 	default:
 		fmt.Printf("%s \n", os)
 	}
-}*/
-
+}
+Ejercicio
 func main() {
 	numero, valor := ejercicios.ConvertToInt("50")
 	fmt.Println(numero)
 	fmt.Println(valor)
+}*/
+
+func main() {
+	ejercicios.IngresarNumero()
+
 }
