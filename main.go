@@ -4,7 +4,7 @@ import (
 
 	/*"runtime"*/
 
-	"github.com/LuisDaga07/goDesde0/ejercicios"
+	"github.com/LuisDaga07/goDesde0/files"
 	/*"github.com/LuisDaga07/goDesde0/variables"*/)
 
 /*func main() {
@@ -33,7 +33,12 @@ func main() {
 	fmt.Println(valor)
 }*/
 
-func main() {
-	ejercicios.IngresarNumero()
+/*func main() {
+	fmt.Println(ejercicios.TablaDeMultiplicar())
+}*/
 
+func main() {
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeoArchivo()
 }
